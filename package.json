@@ -1,0 +1,29 @@
+{
+  "name": "maycur-plugin-exit",
+  "version": "1.0.0",
+  "description": "cordova exit Plugin",
+  "cordova": {
+    "id": "maycur-plugin-exit",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:maycur_mobile/maycur-plugin-exit.git"
+  },
+  "keywords": [
+    "Ionic",
+    "deploy",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Ionic",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "git@gitee.com:maycur_mobile/maycur-plugin-exit.git/issues"
+  },
+  "homepage": "git@gitee.com:maycur_mobile/maycur-plugin-exit.git#readme"
+}

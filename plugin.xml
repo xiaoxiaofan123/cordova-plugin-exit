@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://maycur.com/mobile/plugins/1.0"
+        id="maycur-plugin-exit" version="1.2.0">
+    <name>Exit</name>
+    <description>Maycur Exit Plugin</description>
+    <license>Maycur</license>
+    <keywords>maycur,exit</keywords>
+
+    <js-module src="www/ExitApp.js" name="ExitApp">
+            <clobbers target="maycur.ExitApp" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ExitApp">
+                <param name="ios-package" value="ExitApp"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ExitApp.h" />
+        <source-file src="src/ios/ExitApp.m" />
+    </platform>
+</plugin>
